@@ -6,7 +6,7 @@ import java.util.TreeSet;
 import java.util.stream.IntStream;
 
 public class DiskDirectory extends DiskElement {
-    TreeSet<DiskElement> children = new TreeSet<>();
+    TreeSet<DiskElement> children = new TreeSet<>(new LexicographComp());
 
     DiskDirectory(File directory) {
         super(directory);

@@ -1,5 +1,6 @@
 *.iws
-.iws
+*.iml
+.idea
 workspace.xml
 tasks.xml
 *.jar

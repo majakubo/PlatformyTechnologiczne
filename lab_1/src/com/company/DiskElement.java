@@ -1,9 +1,10 @@
 package com.company;
 
 import java.io.File;
+import java.util.Comparator;
 import java.util.Date;
 
-public abstract class DiskElement implements Comparable<DiskElement>{
+public abstract class DiskElement{
     protected File file;
     DiskElement(File file) {
         this.file = file;
@@ -15,3 +16,4 @@ public abstract class DiskElement implements Comparable<DiskElement>{
     }
 
 }
+
