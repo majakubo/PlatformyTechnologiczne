@@ -1,0 +1,8 @@
+*.iws
+.iws
+workspace.xml
+tasks.xml
+*.jar
+*.war
+*.ear
+*.class
